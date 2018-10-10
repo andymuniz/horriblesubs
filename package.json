@@ -1,0 +1,22 @@
+{
+  "name": "horriblesubs",
+  "version": "1.0.0",
+  "description": "Script for automating anime torrents. Javascript port of oxguy3/horriblesubs python app.",
+  "main": "checkfeed.js",
+  "scripts": {
+    "start": "babel-node checkfeed.js"
+  },
+  "author": "Andy Muniz",
+  "license": "MIT",
+  "dependencies": {
+    "deluge": "^1.7.1",
+    "deluge-rpc": "^1.0.3",
+    "feedparser-promised": "^1.5.0",
+    "pushbullet": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
