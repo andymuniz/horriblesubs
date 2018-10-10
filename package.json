@@ -12,7 +12,8 @@
     "deluge": "^1.7.1",
     "deluge-rpc": "^1.0.3",
     "feedparser-promised": "^1.5.0",
-    "pushbullet": "^2.2.0"
+    "pushbullet": "^2.2.0",
+    "qs": "^6.5.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
